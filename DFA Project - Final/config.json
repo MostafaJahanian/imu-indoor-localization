@@ -1,0 +1,19 @@
+{
+    "mqtt_broker": "localhost",
+    "mqtt_topic_sensehat": "sensors/sensehat",
+    "mqtt_topic_cpu": "sensors/cpu",
+    "map_settings": {
+        "filename": "map.png",
+        "real_width_meters": 8.4,
+        "cell_size": 0.2
+    },
+    "pdr_settings": {
+        "step_length": 0.74,
+        "start_x": 6.5,
+        "start_y": 7.3,
+        "start_heading": 3.14159
+    },
+    "particle_filter": {
+        "num_particles": 500
+    }
+}
